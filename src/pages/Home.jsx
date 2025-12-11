@@ -55,7 +55,7 @@ const Home = () => {
               <h1 className='text-4xl mb-3 text-red-hot'>كل هدف لازم ليه بدايه</h1>
               <h2 className='text-3xl text-gray-100'>خد الفرصه و ابدا معانا لصحه أفضل!</h2>
             </div>
-            <Link to="/contact"><button className='text-3xl bg-red-hot rounded-full hover:bg-blue-800 transition text-white w-10/12 py-2 lg:py-4 text-center mx-auto cursor-pointer relative before:absolute before:w-3 before:h-3 before:bg-red-hot before:rounded-full before:content-["!"] before:text-[8px] before:left-0 before:top-0 before:animate-ping before:flex before:justify-center before:items-center'>أتصل بينا!</button></Link>
+            <Link to="/contact"><button className='text-3xl mt-5 bg-red-hot rounded-full hover:bg-blue-800 transition text-white w-10/12 py-2 lg:py-4 text-center mx-auto cursor-pointer relative before:absolute before:w-3 before:h-3 before:bg-red-hot before:rounded-full before:content-["!"] before:text-[8px] before:left-0 before:top-0 before:animate-ping before:flex before:justify-center before:items-center'>أتصل بينا!</button></Link>
           </div>
         </section>
 

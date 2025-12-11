@@ -9,7 +9,7 @@ library.add(fas, far, fab)
 const Contact = () => {
   return (
     <>
-      <div className="whatsapp w-full  lg:h-[80vh] flex flex-col-reverse md:flex-row-reverse justify-center items-center">
+      <div className="whatsapp w-full mt-8 lg:h-[80vh] flex flex-col-reverse md:flex-row-reverse justify-center items-center">
         <div className="image w-full md:w-5/12">
           <img src="/whatsapp.png" alt="" />
         </div>
