@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  --color-dark : #121212;
+  --color-white-400: #F5F5F5;
+  --color-red-hot: #6d36e4;
+  --animate-pulseRL: pulseRL 1s infinite;
+
+  @keyframes pulseRL {
+    0,
+    100% {
+      transform: translateX(0)
+    }
+
+    50% {
+      transform: translateX(-20px)
+    }
+  }
+}
+
+@layer base {
+  html {
+    font-family: "Cairo", sans-serif;
+  }
+
+  body {
+    background-color: #1a1a1a;
+  }
+}
+
+@layer utilities {
+  .active {
+    @apply text-red-hot
+  }  
+  .active::before {
+    @apply bg-red-hot
+  }
+}
